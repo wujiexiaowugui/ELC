@@ -1,0 +1,20 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+
+# Parameters
+nc: 10  # number of classes
+channels: 64 # number of channels befor fc
+depth_multiple: 1.00  # model depth multiple
+width_multiple: 1.00  # layer channel multiple
+#stage1
+backbone:
+  # [from, number, module, args]
+  [[-1, 1, Conv, [3, 16, 3, 1]], 
+   [-1, 9, Resblock, [16, 16]],  #layer1
+   [-1, 1, Resblock, [16, 32, 2]], # layer2 
+   [-1, 8, Resblock, [32, 32]], # layer2  
+   [-1, 1, Resblock, [32, 64, 2]],  # layer3
+   [-1, 8, Resblock, [64, 64]],   # layer3
+  #  [-1, 1, Classification, [64,10]],  # scale5
+  ]
+head:
+  []

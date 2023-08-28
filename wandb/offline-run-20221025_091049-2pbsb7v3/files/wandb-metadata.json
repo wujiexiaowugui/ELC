@@ -1,0 +1,18 @@
+{
+    "os": "Linux-5.15.0-48-generic-x86_64-with-glibc2.31",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-10-25T01:10:49.975840",
+    "startedAt": "2022-10-25T01:10:49.960067",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 2,
+    "cpu_count": 24,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/hnu/projects/pruning/yolo-pruning/cls/train_rep_layers.py",
+    "codePath": "train_rep_layers.py",
+    "host": "hnu1",
+    "username": "hnu",
+    "executable": "/home/hnu/anaconda3/bin/python"
+}

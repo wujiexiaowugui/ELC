@@ -1,0 +1,24 @@
+2022-10-25 09:10:49,960 INFO    MainThread:2051849 [wandb_setup.py:_flush():68] Configure stats pid to 2051849
+2022-10-25 09:10:49,960 INFO    MainThread:2051849 [wandb_setup.py:_flush():68] Loading settings from /home/hnu/.config/wandb/settings
+2022-10-25 09:10:49,960 INFO    MainThread:2051849 [wandb_setup.py:_flush():68] Loading settings from /home/hnu/projects/pruning/yolo-pruning/cls/wandb/settings
+2022-10-25 09:10:49,960 INFO    MainThread:2051849 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-10-25 09:10:49,960 INFO    MainThread:2051849 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'train_rep_layers.py', 'program': '/home/hnu/projects/pruning/yolo-pruning/cls/train_rep_layers.py'}
+2022-10-25 09:10:49,960 INFO    MainThread:2051849 [wandb_setup.py:_flush():68] Applying login settings: {'login_timeout': 30}
+2022-10-25 09:10:49,960 INFO    MainThread:2051849 [wandb_setup.py:_flush():68] Applying login settings: {'mode': 'offline'}
+2022-10-25 09:10:49,960 INFO    MainThread:2051849 [wandb_init.py:_log_setup():476] Logging user logs to /home/hnu/projects/pruning/yolo-pruning/cls/wandb/offline-run-20221025_091049-2pbsb7v3/logs/debug.log
+2022-10-25 09:10:49,960 INFO    MainThread:2051849 [wandb_init.py:_log_setup():477] Logging internal logs to /home/hnu/projects/pruning/yolo-pruning/cls/wandb/offline-run-20221025_091049-2pbsb7v3/logs/debug-internal.log
+2022-10-25 09:10:49,960 INFO    MainThread:2051849 [wandb_init.py:init():516] calling init triggers
+2022-10-25 09:10:49,960 INFO    MainThread:2051849 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'weights': '/home/hnu/projects/pruning/yolo-pruning/cls/runs/train/resnet34/weights/best.pt', 'cfg': 'models/resnet34.yaml', 'dataset_type': 'cifar10', 'hyp': {'lr0': 0.01, 'lrf': 0.1, 'momentum': 0.937, 'weight_decay': 0.0005, 'warmup_epochs': 3.0, 'warmup_momentum': 0.8, 'warmup_bias_lr': 0.1, 'box': 0.05, 'cls': 0.5, 'cls_pw': 1.0, 'obj': 1.0, 'obj_pw': 1.0, 'iou_t': 0.2, 'anchor_t': 4.0, 'fl_gamma': 0.0, 'hsv_h': 0.0075, 'hsv_s': 0.35, 'hsv_v': 0.2, 'degrees': 0.0, 'translate': 0.0, 'scale': 0.2, 'shear': 0.0, 'perspective': 0.0, 'flipud': 0.0, 'fliplr': 0.5, 'mosaic': 0.0, 'mixup': 0.0, 'copy_paste': 0.0}, 'epochs': 800, 'prune_ratio': 0.6, 'batch_size': 128, 'imgsz': 640, 'rect': False, 'resume': False, 'nosave': False, 'noval': False, 'noautoanchor': False, 'evolve': None, 'bucket': '', 'cache': None, 'image_weights': False, 'device': '0,1', 'multi_scale': False, 'single_cls': False, 'adam': False, 'sync_bn': False, 'workers': 8, 'project': 'runs/train', 'name': 'resnet34-rep-layers', 'exist_ok': False, 'quad': False, 'linear_lr': False, 'label_smoothing': 0.0, 'patience': 600, 'freeze': 0, 'save_period': 10, 'local_rank': -1, 'entity': None, 'upload_dataset': False, 'bbox_interval': -1, 'artifact_alias': 'latest', 'save_dir': 'runs/train/resnet34-rep-layers52'}
+2022-10-25 09:10:49,960 INFO    MainThread:2051849 [wandb_init.py:init():569] starting backend
+2022-10-25 09:10:49,960 INFO    MainThread:2051849 [wandb_init.py:init():573] setting up manager
+2022-10-25 09:10:49,961 INFO    MainThread:2051849 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-10-25 09:10:49,962 INFO    MainThread:2051849 [wandb_init.py:init():580] backend started and connected
+2022-10-25 09:10:49,963 INFO    MainThread:2051849 [wandb_init.py:init():658] updated telemetry
+2022-10-25 09:10:49,964 INFO    MainThread:2051849 [wandb_init.py:init():728] starting run threads in backend
+2022-10-25 09:10:51,621 INFO    MainThread:2051849 [wandb_run.py:_console_start():1980] atexit reg
+2022-10-25 09:10:51,621 INFO    MainThread:2051849 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2022-10-25 09:10:51,621 INFO    MainThread:2051849 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2022-10-25 09:10:51,621 INFO    MainThread:2051849 [wandb_run.py:_redirect():1925] Redirects installed.
+2022-10-25 09:10:51,621 INFO    MainThread:2051849 [wandb_init.py:init():765] run started, returning control to user process
+2022-10-25 09:10:52,747 WARNING MsgRouterThr:2051849 [router.py:message_loop():77] message_loop has been closed
