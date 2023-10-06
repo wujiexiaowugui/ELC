@@ -1,4 +1,4 @@
-# Efficient Layer compression without Pruning
+# Efficient Layer Compression without Pruning
 The code in this toolbox implements the: ["Efficient Layer compression without Pruning"](https://ieeexplore.ieee.org/abstract/document/10214522).
 
 ## Overview
